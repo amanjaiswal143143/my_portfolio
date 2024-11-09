@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aman Jaiswal | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-logo">
+            <img src="logo.jpg" alt="logo" class="logo">
+        </div>
+        <div class="nav-links">
+            <a href="#home" class="nav-item">Home</a>
+            <a href="#about" class="nav-item">About</a>
+            <a href="#services" class="nav-item">Services</a>
+            <a href="#projects" class="nav-item">Projects</a>
+            <a href="#contact" class="nav-item">Contact</a>
+        </div>
+        <div class="nav-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h3 class="subtitle">FRONTEND DEVELOPER</h3>
+            <h1 class="title"><span style="color: #f1f2f6;">Hi, I'm </span><span class="highlight">Aman Jaiswal</span>
+            </h1>
+            <p class="description">Crafting digital experiences through code</p>
+            <a href="#contact" class="cta-button">Get In Touch</a>
+        </div>
+        <button class="scroll-btn" aria-label="Scroll">
+            <i class="scroll-arrow"></i>
+        </button>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-header">
+            <h2>About Me</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="me.jpg" alt="Aman Jaiswal" class="profile-img">
+            </div>
+            <div class="about-text">
+                <p>I am Aman Jaiswal, a driven and curious individual with a strong foundation in technology and
+                    innovation. With a keen interest in Artificial Intelligence and Machine Learning, I'm continually
+                    expanding my skills in this field, working on projects that push the boundaries of what AI can
+                    achieve.</p>
+
+                <div class="tabs">
+                    <button class="tab-btn active" data-tab="education">Education</button>
+                    <button class="tab-btn" data-tab="skills">Skills</button>
+                    <button class="tab-btn" data-tab="experience">Experience</button>
+                </div>
+
+                <div class="tab-content active" id="education">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <h4>SVNIT, SURAT</h4>
+                            <p>2023 - Present</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h4>MUVNPS, CHAPDA</h4>
+                            <p>2022</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h4>MLZS, INDORE</h4>
+                            <p>2020</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="section-header">
+            <h2>My Services</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3>Web Development</h3>
+                <p>Creating responsive and modern websites with cutting-edge technologies and best practices.</p>
+                <ul class="service-features">
+                    <li><i class="fas fa-check"></i> Responsive Design</li>
+                    <li><i class="fas fa-check"></i> Modern Frameworks</li>
+                    <li><i class="fas fa-check"></i> Performance Optimization</li>
+                </ul>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <h3>AI Development</h3>
+                <p>Building intelligent solutions and implementing machine learning algorithms.</p>
+                <ul class="service-features">
+                    <li><i class="fas fa-check"></i> Machine Learning</li>
+                    <li><i class="fas fa-check"></i> Data Analysis</li>
+                    <li><i class="fas fa-check"></i> Neural Networks</li>
+                </ul>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
+                <h3>Adding soon...</h3>
+                <p></p>
+                <ul class="service-features">
+                    <li><i class="fas fa-check"></i> </li>
+                    <li><i class="fas fa-check"></i> </li>
+                    <li><i class="fas fa-check"></i> </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="section-header">
+            <h2>My Projects</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="project.jpg" alt="Object Following Bot">
+                </div>
+                <div class="project-content">
+                    <h3>Object Following Bot</h3>
+                    <p>An autonomous robot capable of detecting and following specific objects using computer vision and
+                        sensors.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>OpenCV</span>
+                        <span>Arduino</span>
+                    </div>
+                    <p>Equipped with real-time image processing and advanced motion control algorithms, the robot can
+                        maintain optimal distance and orientation relative to the target object. This innovative project
+                        was developed for the Makernova competition conducted under the Drishti Club of SVNIT,
+                        showcasing practical applications of robotics and AI. The system utilizes OpenCV for object
+                        detection and incorporates PID control for smooth navigation and precise movements.</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-header">
+            <h2>Get In Touch</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>amanjaiswal143143@gmail.com</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <p>9770096693</p>
+                </div>
+                <div class="social-links">
+                    <a href="" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/amanjaiswal143143" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/amanjaiswal__143/profilecard/?igsh=MTV4MzlmY3N3eHN2OA=="
+                        class="social-icon"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Your Message" rows="6" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <nav class="footer-nav">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="footer-social">
+                <!-- <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a> -->
+            </div>
+            <div class="copyright">
+                <p>&copy; 2024 Aman Jaiswal. All rights reserved.</p>
+                <p>Crafted with <i class="fas fa-heart" style="color: var(--primary-color);"></i> by Aman</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Tab switching functionality
+        const tabBtns = document.querySelectorAll('.tab-btn');
+        const tabContents = document.querySelectorAll('.tab-content');
+
+        tabBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Remove active class from all buttons
+                tabBtns.forEach(b => b.classList.remove('active'));
+                // Add active class to clicked button
+                btn.classList.add('active');
+
+                // Show corresponding content
+                const tabId = btn.dataset.tab;
+                tabContents.forEach(content => {
+                    content.classList.remove('active');
+                    if (content.id === tabId) {
+                        content.classList.add('active');
+                    }
+                });
+            });
+        });
+
+        // Mobile navigation
+        const navToggle = document.querySelector('.nav-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        navToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        document.addEventListener('DOMContentLoaded', () => {
+    const scrollBtn = document.querySelector('.scroll-btn');
+    
+    // Show/hide button based on scroll position
+    window.addEventListener('scroll', () => {
+        const scrolled = window.scrollY;
+        const viewportHeight = window.innerHeight;
+        const totalHeight = document.documentElement.scrollHeight;
+
+        // Show button after scrolling down 300px
+        if (scrolled > 300) {
+            scrollBtn.classList.add('visible');
+        } else {
+            scrollBtn.classList.remove('visible');
+        }
+
+        // Change arrow direction when near bottom
+        if (scrolled + viewportHeight >= totalHeight - 100) {
+            scrollBtn.classList.add('up');
+        } else {
+            scrollBtn.classList.remove('up');
+        }
+    });
+
+    // Scroll functionality
+    scrollBtn.addEventListener('click', () => {
+        const scrolled = window.scrollY;
+        const totalHeight = document.documentElement.scrollHeight;
+        const viewportHeight = window.innerHeight;
+
+        if (scrolled + viewportHeight >= totalHeight - 100) {
+            // If near bottom, scroll to top
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        } else {
+            // Otherwise, scroll to bottom
+            window.scrollTo({
+                top: totalHeight,
+                behavior: 'smooth'
+            });
+        }
+    });
+});
+    </script>
+</body>
+
+</html>
